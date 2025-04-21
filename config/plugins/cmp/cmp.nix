@@ -58,11 +58,11 @@
           "<tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
           "<Down>" = "cmp.mapping.select_next_item()";
           "<Up>" = "cmp.mapping.select_prev_item()";
-          "<C-e>" = "cmp.mapping.abort()";
+          "<esc>" = "cmp.mapping.abort()";
           "<C-Up>" = "cmp.mapping.scroll_docs(-4)";
           "<C-Down>" = "cmp.mapping.scroll_docs(4)";
           "<C-Space>" = "cmp.mapping.complete()";
-          "<C-CR>" = "cmp.mapping.confirm({ select = true })";
+          "<CR>" = "cmp.mapping.confirm({ select = true })";
           "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
         };
       };
