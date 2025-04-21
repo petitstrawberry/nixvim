@@ -55,7 +55,7 @@
         };
 
         mapping = {
-          "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
+          "<tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
           "<Down>" = "cmp.mapping.select_next_item()";
           "<Up>" = "cmp.mapping.select_prev_item()";
           "<C-e>" = "cmp.mapping.abort()";
